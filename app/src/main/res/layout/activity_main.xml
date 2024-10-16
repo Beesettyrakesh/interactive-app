@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="20dp"
+    android:id="@+id/layout"
     tools:context=".MainActivity">
 
 
@@ -17,15 +17,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:padding="15dp"
-        android:text="Dark" />
+        android:text="Dark Mode" />
 
     <Button
-        android:id="@+id/btnLight"
+        android:id="@+id/btnRead"
         android:fontFamily="monospace"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:padding="15dp"
-        android:text="Light" />
+        android:text="Read Mode" />
 </LinearLayout>
